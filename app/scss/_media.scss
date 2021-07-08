@@ -251,7 +251,34 @@
     .advantages, .equipment__img-1, .equipment {
         margin-bottom: 40px;
     }
-    
+
+    // modal
+
+    .fancybox-content {
+        max-width: 520px;
+        margin: 10px 15px;
+    }
+    .modal__title {
+        font-size: 40px;
+    }
+    .modal__form .modal__form-text, .modal__form .modal__form-area {
+        max-width: 620px;
+        margin-bottom: 15px;
+        padding: 15px;
+        outline: none;
+    }
+    .modal__form-btn {
+        font-size: 22px;
+        padding: 20px 55px;
+        margin-bottom: 22px;
+    }
+    .modal__form-rights {
+        margin-bottom: 20px;
+    }
+    .modal__form .modal__form-area {
+        height: 200px;
+    }
+    // modal
 }
 
 
@@ -364,6 +391,25 @@
     .examples__item-text {
         font-size: 20px;
     }
+
+    // modal 
+    .modal__title {
+        font-size: 30px;
+        padding: 15px 0;
+    }
+    .modal__form .modal__form-area {
+        height: 170px;
+    }
+    .modal__subtitle {
+        padding: 20px;
+        font-size: 18px;
+    }
+    .fancybox-slide--html .fancybox-close-small {
+        border: 2px solid #fff;
+        height: 30px;
+        width: 30px;
+    }
+    //modal
  }
 
 
@@ -418,6 +464,30 @@
             margin: 10px auto 15px;
         }
     }
+
+    // modal
+    .fancybox-content {
+        max-width: 450px;
+        margin: 10px 10px;
+    }
+    .modal__form .modal__form-text, .modal__form .modal__form-area {
+        padding: 10px;
+    }
+    .modal__form {
+        font-size: 16px;
+    }
+    .modal__form-btn {
+        font-size: 18px;
+        padding: 20px 55px;
+        margin-bottom: 15px;
+    }
+    .modal__form-rights {
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    // modal
+
+    
  }
 
  @media (max-width: 450px) {
@@ -496,6 +566,23 @@
     .our-works__items {
         margin-top: 35px;
     }
+
+    // modal
+    .modal__subtitle {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .modal__form-rights {
+      padding: 0 10px;
+    }
+    .fancybox-content {
+        margin: 0;
+    }
+    .fancybox-slide {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    // modal
 }
 
 
